@@ -1,1 +1,8 @@
-hello world
+git clone repository name
+echo "this is the context of the file" >> filename.txt
+git add filename.txt
+git commit -m "this is the comment for the commit"
+git push
+
+file has been pushed up to the repo
+
