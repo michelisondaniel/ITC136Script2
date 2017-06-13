@@ -1,0 +1,22 @@
+#!/bin/bash
+# Utility to setup a new github repository
+# gitsetup will clone the specified git repo and
+#       set the local git user.name and user.email
+#
+# gitsetup requires values for  github-repo, user-name, user-email
+#
+# gitsetup can accept zero, 1 or 3 command line arguments
+#
+# Zero argument mode
+#	gitsetup will prompt for github repo name
+#	user-name and user-email will use script default values
+#
+# 1 argument
+#	gitsetup will use $1 for the github repo name
+#	user-name and user-email will use script defaul values
+# 3 arguments
+#	gitsetup will use $1 for the github repo name
+#	$2 as value for user-name and $3 as value for user-email
+#
+#
+
