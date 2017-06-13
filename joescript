@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+echo "please enter your username"
+read  username
+
+echo "please enter your email"
+read email
+
+
+echo "please enter your repo name"
+read repo
+
+$(git config --global user.name "$username")
+
+$(git config --global user.email "$email")
+
+
+
+
+$(git clone https://github.com/$username/$repo.git)
